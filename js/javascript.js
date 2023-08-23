@@ -19,6 +19,7 @@ function somar(){
     console.log(typeof(n2))
     var resultado = n1 + n2
     console.log(resultado)
+    alert (resultado)
 }
 
 function subtrair(){
@@ -28,6 +29,7 @@ function subtrair(){
     console.log(typeof(n2))
     var resultado = n1 - n2
     console.log(resultado)
+    alert (resultado)
 }
 
 function multiplicar(){
@@ -37,6 +39,7 @@ function multiplicar(){
     console.log(typeof(n2))
     var resultado = n1 * n2
     console.log(resultado)
+    alert (resultado)
 }
 
 function dividir(){
@@ -46,6 +49,7 @@ function dividir(){
     console.log(typeof(n2))
     var resultado = n1 / n2
     console.log(resultado)
+    alert (resultado)
 }
 
 function q(){
@@ -53,4 +57,30 @@ function q(){
     console.log(typeof(n1))
     var resultado = n1 * n1
     console.log(resultado)
+    alert (resultado)
 }
+
+
+function elevado(){
+    var n1 = parseInt(prompt("digite o n1"))
+    var n2 = parseInt(prompt("digite o n2"))
+    console.log(typeof(n1))
+    console.log(typeof(n2))
+    var resultado = n1 ** n2
+    console.log(resultado)
+    alert (resultado)
+}
+
+function raiz(){
+    var n1 = parseInt(prompt("digite o numero"))
+    console.log(typeof(n1))
+    var resultado = Math.sqrt(n1)
+    console.log(resultado)
+    alert (resultado)
+}
+ function nome(){
+ const nome = document.getElementById("frmnome").value
+ console.log(nome)
+ document.getElementById("exibenome").innerHTML = nome
+
+ }
